@@ -1,0 +1,21 @@
+
+$ python -m venv myenv  
+
+
+1. `./myenv/scripts/activate`: Activating a virtual environment named `myenv`.
+2. `pip install django`: Installing the Django framework.
+3. `pip install mysql`: Attempting to install MySQL client library, though this package doesn't exist. Perhaps the intention was to install `mysqlclient` or `pymysql`.
+4. `pip install mysql-connector`: Installing the MySQL Connector library for Python.
+5. `pip install mysql-connector-python`: Installing the MySQL Connector/Python library, another MySQL client library for Python.
+6. `django-admin startproject <dproject>`: Creating a Django project named `<dproject>`.
+7. `cd <dproject>`: Changing directory to the newly created `<dproject>`.
+8. `python manage.py startapp website`: Creating a Django app named `website` within the `<dproject>`.
+9. `python mydb.py`: Running a Python script named `mydb.py`.
+10. `python manage.py migrate`: Applying database migrations to create necessary tables.
+ ----- python manage.py makemigrations 
+11. `winpty python manage.py createsuperuser`: Attempting to create a superuser, but encountering an error because `winpty` is not recognized.
+12. `python manage.py createsuperuser`: Successfully creating a superuser without using `winpty`.
+13. `python manage.py runserver`: Running the development server for the Django project.
+
+
+ngrok http 8000 --region ap

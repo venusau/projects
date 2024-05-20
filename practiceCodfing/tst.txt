@@ -1,0 +1,11 @@
+- basic nosql like mongo queries: find, pipeline, aggregation, index creation, explain queries
+- async coding, basic of event loop
+- middlewares like auth/logging
+- debugging with logs
+- postman tool
+- json
+- Sorting algo
+OS concepts:
+- process vs threads
+- Linux basic commands
+- concurrency vs parallelysm
